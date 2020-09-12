@@ -10,7 +10,7 @@ import com.example.consumingwebservice.wsdl.GetCountryRequest;
 import com.example.consumingwebservice.wsdl.GetCountryResponse;
 
 public class CountryClient extends WebServiceGatewaySupport {
-    
+
     private static final Logger log = LoggerFactory.getLogger(CountryClient.class);
 
     public GetCountryResponse getCountry(String country) {
